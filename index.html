@@ -1,8 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="UTf-8" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alremsh Website</title>
+    <style>
+      /* General styles */
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+      }
+
+      h1, h2, h3, h4 {
+        text-align: center;
+        margin: 20px 0;
+      }
+
+      a {
+        text-decoration: none;
+        color: #333;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 10px auto;
+      }
+
+      /* Responsive font sizes */
+      @media (max-width: 600px) {
+        h1 {
+          font-size: 24px;
+        }
+
+        h2 {
+          font-size: 20px;
+        }
+
+        h3 {
+          font-size: 18px;
+        }
+
+        h4 {
+          font-size: 16px;
+        }
+      }
+    </style>
   </head>
   <body>
     <h1>Abood Alremsh's Portfolio</h1>
@@ -21,10 +71,10 @@
       />
     </h3>
     <h3>
-      <a href="./public/weddingday-invite.html">Weddind Day Project</a>
+      <a href="./public/weddingday-invite.html">Wedding Day Project</a>
       <img
         src="./assets/images/wedding-day.png"
-        alt="picture describe a wedding day"
+        alt="picture describing a wedding day"
         srcset="
           ./assets/images/wedding-day.png 200w,
           ./assets/images/wedding-day.png 300w
@@ -34,8 +84,8 @@
     </h3>
     <hr />
     <h4>
-      <a href="./public/about.html">About Me.</a>
-      <a href="./public/contact.html">Contact Me.</a>
+      <a href="./public/about.html">About Me</a> |
+      <a href="./public/contact.html">Contact Me</a>
     </h4>
   </body>
 </html>
